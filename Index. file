@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raissa Poles | Arquitetura Biofílica & Tecnologia</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f8f2;
+color:#333;
+line-height:1.7;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("imagens/jardim.jpg");
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero{
+max-width:800px;
+padding:20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.2rem;
+}
+
+.botao{
+display:inline-block;
+margin-top:20px;
+padding:14px 25px;
+background:#2e7d32;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+.botao:hover{
+background:#1b5e20;
+}
+
+section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+color:#2e7d32;
+margin-bottom:40px;
+}
+
+.perfil{
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.perfil img{
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid #2e7d32;
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.galeria img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:0.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.03);
+}
+
+.contato{
+text-align:center;
+background:white;
+padding:40px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+background:#2e7d32;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Arquitetura Biofílica & Tecnologia</h1>
+
+<p>
+Projetando ambientes que promovem bem-estar,
+conectam pessoas à natureza e unem inovação
+através da tecnologia.
+</p>
+
+<a href="#contato" class="botao">
+Solicitar Orçamento
+</a>
+
+</div>
+
+</header>
+
+<section id="sobre">
+
+<h2>Sobre Mim</h2>
+
+<div class="perfil">
+
+<img src="imagens/raissa.jpg" alt="Raissa Poles">
+
+<h3>Arq. Raissa Poles</h3>
+
+<p>
+Sou arquiteta apaixonada por transformar espaços
+em ambientes funcionais, acolhedores e conectados
+à natureza através da biofilia.
+</p>
+
+<br>
+
+<p>
+Possuo experiência em projetos residenciais,
+interiores, consultorias, reformas,
+acessibilidade, BIM e inteligência artificial
+aplicada à arquitetura.
+</p>
+
+<br>
+
+<p>
+Atualmente estou expandindo meus conhecimentos
+na área de tecnologia, cursando Análise e
+Desenvolvimento de Sistemas e aprendendo HTML,
+CSS, JavaScript, Python e Inteligência Artificial.
+</p>
+
+<br>
+
+<p>
+Meu objetivo é unir arquitetura e tecnologia para
+criar soluções inovadoras que melhorem a vida das pessoas.
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Benefícios da Biofilia</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌿 Bem-estar</h3>
+<p>Ambientes mais saudáveis e acolhedores.</p>
+</div>
+
+<div class="card">
+<h3>☀️ Luz Natural</h3>
+<p>Mais conforto e eficiência energética.</p>
+</div>
+
+<div class="card">
+<h3>🌱 Produtividade</h3>
+<p>Maior foco e criatividade nos espaços.</p>
+</div>
+
+<div class="card">
+<h3>🏡 Qualidade de Vida</h3>
+<p>Conexão entre pessoas e natureza.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Projetos e Inspirações</h2>
+
+<div class="galeria">
+
+<img src="imagens/sala-biofilia.jpg" alt="Projeto 1">
+
+<img src="imagens/sala-madeira.jpg" alt="Projeto 2">
+
+<img src="imagens/quarto.jpg" alt="Projeto 3">
+
+<img src="imagens/jardim.jpg" alt="Projeto 4">
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<div class="contato">
+
+<h3>Arq. Raissa Poles</h3>
+
+<p>
+Arquitetura • Biofilia • Tecnologia
+</p>
+
+<br>
+
+<p>
+📧 arq.raissa.poles@gmail.com
+</p>
+
+<p>
+📱 WhatsApp: (15) 98801-9803
+</p>
+
+<a
+href="https://wa.me/5515988019803"
+target="_blank"
+class="botao">
+
+Falar no WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Raissa Poles |
+Arquitetura Biofílica & Tecnologia
+</p>
+
+</footer>
+
+</body>
+</html>
